@@ -1,0 +1,19 @@
+.header{
+	padding-top: 480px;
+	padding-bottom: 140px;
+	&-text{
+		text-align: center;
+	}
+	&-title{
+		text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+		color: $color-primary;
+		font-size: 72px;
+		font-weight: 300;
+		&-text{
+		font-size: 30px;
+		line-height: 1.6;
+		font-weight: 700;
+		color: $color-primary;
+		}
+	}
+}

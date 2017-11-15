@@ -1,0 +1,30 @@
+.navigation{
+		padding-top: 15px;
+		left: 0;
+	    width: 100%;
+	    background-color: $color-primary;
+	    // font-family: 'Roboto Slab' ,serif;
+	&-menu-list{
+		li{
+			display: inline-block;
+		    margin-right: 14px;
+		    margin-left: 14px;
+		    
+		}
+		a{
+			text-decoration: none;
+		    color: $color-brand-two;
+		    text-transform: uppercase;
+		    list-style-type: none;
+		    font-size: 13px;
+		    font-weight: 900;
+		    position: relative;
+		    display: block;
+		    cursor: pointer;
+
+			&:hover{
+		    	color: $color-brand-one;
+		    }
+		}
+	}
+}
