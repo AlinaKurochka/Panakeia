@@ -1,0 +1,14 @@
+.logo{
+	line-height: 2.25;
+	&-title{
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 36px;
+		color: $color-brand-two;
+	}
+	&-text{
+		color: $color-brand-one;
+		font-size: 16px;
+		letter-spacing: 0.96px;
+	}
+}

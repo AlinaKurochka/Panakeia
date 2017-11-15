@@ -1,14 +1,17 @@
 .navigation{
-		padding-top: 15px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 		left: 0;
 	    width: 100%;
 	    background-color: $color-primary;
-	    // font-family: 'Roboto Slab' ,serif;
+	    position: fixed;
+	    top: 0;
+	    z-index: 9999;
 	&-menu-list{
 		li{
 			display: inline-block;
-		    margin-right: 14px;
-		    margin-left: 14px;
+		    margin-right: 15px;
+		    margin-left: 15px;
 		    
 		}
 		a{
@@ -16,11 +19,10 @@
 		    color: $color-brand-two;
 		    text-transform: uppercase;
 		    list-style-type: none;
-		    font-size: 13px;
-		    font-weight: 900;
-		    position: relative;
+		    font-size: 18px;
 		    display: block;
 		    cursor: pointer;
+		    line-height: 1.333;
 
 			&:hover{
 		    	color: $color-brand-one;
