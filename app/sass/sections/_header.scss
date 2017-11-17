@@ -12,8 +12,38 @@
 		&-text{
 		font-size: 30px;
 		line-height: 1.6;
-		font-weight: 700;
 		color: $color-primary;
+		}
+	}
+	&-block-icon{
+		text-align: center;
+		padding-top: 120px;
+		&-image{
+			img{
+				border: 7px solid #edeff1;
+				border-radius: 50%;
+				width: 134px;
+				height: 134px;
+				object-fit: cover;
+			}
+		&-title{
+			color: $color-primary;
+			font-size: 30px;
+			font-weight: 700;
+			line-height: 0.8333;
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+		&-text{
+			color: $color-primary;
+			font-family: 'Roboto', sans-serif;
+			font-size: 15px;
+			font-weight: 300;
+			line-height: 2;
+			padding-bottom: 75px;
+			padding-left: 15px;
+    		padding-right: 15px;
+		}
 		}
 	}
 }

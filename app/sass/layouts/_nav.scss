@@ -10,8 +10,6 @@
 	&-menu-list{
 		li{
 			display: inline-block;
-		    margin-right: 15px;
-		    margin-left: 15px;
 		    
 		}
 		a{
@@ -23,9 +21,12 @@
 		    display: block;
 		    cursor: pointer;
 		    line-height: 1.333;
+		    border-radius: 45px;
+		    padding: 17px 25px;
 
 			&:hover{
-		    	color: $color-brand-one;
+		    	background-color: $color-brand-one;
+				color: $color-primary;
 		    }
 		}
 	}
