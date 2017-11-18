@@ -1,0 +1,23 @@
+.block-list{
+	padding-top: 100px;
+	padding-bottom: 110px;
+	background-color: #d75d0e;
+	&-text{
+		li{
+
+			text-decoration: none;
+			
+		    color: $color-primary;
+		    font-size: 18px;
+		    cursor: pointer;
+		    line-height: 2;
+		    font-weight: 300;
+		     list-style-type: none;
+		     text-align: center;
+		    a{
+				font-family: 'Roboto', sans-serif;
+		    }
+		}
+		
+}
+}

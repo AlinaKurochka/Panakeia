@@ -1567,6 +1567,22 @@ html {
   text-align: center;
 }
 
+.title-white {
+  color: #fff;
+}
+
+.text {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  width: 533px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
 .button {
   display: inline-block;
   padding: 25px 70px;
@@ -1576,23 +1592,46 @@ html {
   border: 1px solid rgba(255, 255, 255, 0.5);
   outline: none;
   cursor: pointer;
-  color: #dd4b2b;
   -webkit-border-radius: 50px;
   border-radius: 50px;
-  background-color: #fff;
 }
 
 .button-brand-one {
+  color: #dd4b2b;
+  background-color: #fff;
   text-align: center;
 }
 
 .button-brand-two {
   color: #4e5159;
+  background-color: #fff;
+  text-align: center;
 }
 
-.button:hover {
-  background-color: #dd4b2b;
+.button-brand-color {
   color: #fff;
+  padding: 18px 70px;
+  margin-top: 45px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.button-brand-color-red {
+  background-color: #dd4b2b;
+}
+
+.button-brand-color-blue {
+  background-color: #4b4e73;
+}
+
+.form {
+  position: relative;
+  border-bottom: 3px solid #626262;
+  padding-bottom: 15px;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .news {
@@ -1603,4 +1642,83 @@ html {
 
 .news-block {
   padding-top: 80px;
+}
+
+.news-block-image {
+  font-weight: 300;
+}
+
+.news-block-image-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #31353e;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.news-block-image-text {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #31353e;
+  text-align: center;
+  padding: 15px 15px 35px 15px;
+}
+
+.sign-up {
+  padding-top: 90px;
+  padding-bottom: 110px;
+}
+
+.section {
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+.section-contant {
+  color: #191b29;
+}
+
+.section-contant-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  padding-top: 55px;
+  padding-bottom: 25px;
+}
+
+.section-contant-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.section-contant-padding p:not(:last-child) {
+  padding-bottom: 30px;
+}
+
+.section-contant-bottom {
+  padding-top: 55px;
+}
+
+.block-list {
+  padding-top: 100px;
+  padding-bottom: 110px;
+  background-color: #d75d0e;
+}
+
+.block-list-text li {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  line-height: 2;
+  font-weight: 300;
+  list-style-type: none;
+  text-align: center;
+}
+
+.block-list-text li a {
+  font-family: 'Roboto', sans-serif;
 }

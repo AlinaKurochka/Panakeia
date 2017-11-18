@@ -6,17 +6,26 @@
 		padding-top: 80px;
 	}
 	&-block-image{
+		font-weight: 300;
 
+		&-title{
+			font-size: 24px;
+			font-weight: 700;
+			color: #31353e;
+			text-align: center;
+			padding-top: 40px;
+		}
+		&-text{
+			font-size: 15px;
+			font-weight: 300;
+			line-height: 30px;
+			color: #31353e;
+			text-align: center;
+			padding: 15px 15px 35px 15px;
+
+		}
 	}
 }
-// color: #31353e;
-// font-family: Roboto;
-// font-size: 15px;
-// font-weight: 300;
-// line-height: 30px;
-// Text style for "L, orem ip"
-// font-family: "Roboto Slab";
-// font-size: 24px;
-// font-weight: 700;
-// /* Text style for "Est a elit" */
-// font-weight: 300;
+
+
+

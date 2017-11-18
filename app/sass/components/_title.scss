@@ -4,4 +4,7 @@
 	font-weight: 700;
 	line-height: 0.8;
 	text-align: center;
+	&-white{
+		color: $color-primary;
+	}
 }
