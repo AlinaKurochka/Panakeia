@@ -8,16 +8,17 @@
     outline: none;
     cursor: pointer;
     border-radius: 50px;
+    &-center{
+        text-align: center;
+    }
     &-brand{
          &-one{
                 color: $color-brand-one;
                 background-color: $color-primary;
-                text-align: center;
             }
             &-two{
                 color: #4e5159;
                 background-color: $color-primary;
-                text-align: center;
             }
         &-color{
                 color: $color-primary;
